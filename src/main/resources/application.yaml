@@ -1,12 +1,12 @@
 server:
-  port: 8080
+  port: $port
 
 spring:
   datasource:
     platform: postgres
-    url: jdbc:postgresql://ec2-34-230-153-41.compute-1.amazonaws.com:5432/d6bd9o7vc5b59b
-    username: rubepjnnmlxxop
-    password: 1b7000bd758250a58552e3f0445041dfb251cc1b1ad59ce4bb974b228e352d21
+    url: jdbc:postgresql://ec2-52-3-2-245.compute-1.amazonaws.com:5432/deff7ori51th0u
+    username: jwejdvlxufnqkk
+    password: 40ac0f17525bae7c5de9b8e246608ea87203f85943ddd07f893d0414273d7d11
     driverClassName: org.postgresql.Driver
     initialization-mode: always
     initialize: true
