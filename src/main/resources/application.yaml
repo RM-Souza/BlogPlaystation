@@ -11,3 +11,4 @@ spring:
     initialization-mode: always
     initialize: true
     schema: classpath:/schema-postgresql.sql
+    URI: $DATABASE_URL
