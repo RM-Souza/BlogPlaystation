@@ -4,11 +4,10 @@ server:
 spring:
   datasource:
     platform: postgres
-    url: jdbc:postgresql://ec2-52-3-2-245.compute-1.amazonaws.com:5432/deff7ori51th0u
+    url: $DATABASE_URL
     username: jwejdvlxufnqkk
     password: 40ac0f17525bae7c5de9b8e246608ea87203f85943ddd07f893d0414273d7d11
     driverClassName: org.postgresql.Driver
     initialization-mode: always
     initialize: true
     schema: classpath:/schema-postgresql.sql
-    URI: $DATABASE_URL
